@@ -2,20 +2,21 @@
 
 Mobile application programming labs, built with Flutter in Android Studio.
 
+This branch holds **lab 3** only. Each lab has its own branch:
+`lab1`, `lab2`, `lab3`, `lab4`.
+
 | Lab | Folder | Description |
 |-----|--------|-------------|
-| 1 | [lab1_imc](lab1_imc/) | BMI (IMC) calculator |
-| 2 | [lab2_appointment](lab2_appointment/) | Doctor appointment app (Figma V2) |
 | 3 | [lab3_appointment](lab3_appointment/) | Lab 2 app with Cubit state management and async JSON loading |
 
-## Running a lab
+## Running the lab
 
-Open a lab folder in Android Studio (File → Open → `lab1_imc`, `lab2_appointment` or `lab3_appointment`), or from a terminal:
+Open `lab3_appointment` in Android Studio (File → Open), or from a terminal:
 
 ```bash
-cd lab1_imc
+cd lab3_appointment
 flutter pub get
 flutter run
 ```
 
-Lab 3 also has a web platform, so it can run in a browser with `flutter run -d chrome`.
+It also has a web platform: `flutter run -d chrome`.
