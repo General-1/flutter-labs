@@ -1,0 +1,8 @@
+# Opțiuni pentru generatorul de cod JSON (json_serializable).
+targets:
+  $default:
+    builders:
+      json_serializable:
+        options:
+          explicit_to_json: true # obiectele imbricate devin și ele Map
+          include_if_null: false
