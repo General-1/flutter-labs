@@ -1,0 +1,9 @@
+# Root-level ignores (each lab also has its own Flutter .gitignore)
+.idea/
+*.iml
+.DS_Store
+**/build/
+**/.dart_tool/
+**/android/.gradle/
+**/android/local.properties
+**/windows/flutter/ephemeral/
